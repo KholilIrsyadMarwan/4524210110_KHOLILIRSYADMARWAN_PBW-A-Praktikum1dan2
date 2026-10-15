@@ -177,5 +177,6 @@ cd 4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum1dan2.<br>
 3. Jalankan Server Lokal PHP <br>
 php -S localhost:8000<br>
 4. Akses Aplikasi via Browser<br>
-http://localhost:8000/kalkulator.php  <br>
-Biodata: http://localhost:8000/biodata.php   <br>
+kalkulator: http://localhost:8000/kalkulator.php <br>
+biodata: http://localhost:8000/biodata.php   <br>
+biodataupdate: http://localhost:8000/biodata.php   <br>
