@@ -118,7 +118,7 @@ Aplikasi ini terdiri dari 2 file utama:
    - Menampilkan ringkasan informasi biodata, predikat IPK, dan kategori semester secara dinamis.<br>
    
 3. **Biodata Mahasiswa (`biodata.php`)** <br>
-   -Menambahkan field **Status: Aktif** dan **Status Semester: Mahasiswa Tingkat Lanjut**.<br>
+   - Menambahkan field **Status: Aktif** dan **Status Semester: Mahasiswa Tingkat Lanjut**.<br>
 ---
 
 ## ✨ Fitur Utama
