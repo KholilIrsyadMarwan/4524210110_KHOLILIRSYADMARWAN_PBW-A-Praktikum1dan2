@@ -146,19 +146,20 @@ Aplikasi ini terdiri dari 2 file utama:
 
 ### 1. Tampilan Kalkulator  (`kalkulator.php`)
 Output hasil perhitungan perkalian $5 \times 5$:
-<img width="746" height="60" alt="12" src="https://github.com/user-attachments/assets/382b2fc0-3cb5-4df2-8018-ce04aefd661d" />
+<img width="1336" height="262" alt="kalkulator" src="https://github.com/user-attachments/assets/0c06e45a-2f6b-4a63-8387-6880258250ee" />
 
 ---
 
 ### 2. Tampilan Biodata (`biodata.php`)
 Tampilan awal yang hanya memuat NIM, Nama, Prodi, Semester, IPK, dan Predikat:
-![Biodata Sebelum Modifikasi](https://via.placeholder.com/800x400?text=Screenshot+Biodata+Sebelum+Modifikasi)[cite: 1]
+<img width="1600" height="275" alt="biodata" src="https://github.com/user-attachments/assets/b941a78b-5e87-4cf4-97cc-1e9e6ca2a5c8" />
 
 ---
 
 ### 2. Tampilan Biodata (`biodataupdate.php`)
 Tampilan setelah penambahan field **Status: Aktif** dan **Status Semester: Mahasiswa Tingkat Lanjut**:
-![Biodata Sesudah Modifikasi](https://via.placeholder.com/800x400?text=Screenshot+Biodata+Sesudah+Modifikasi)
+<img width="1600" height="373" alt="biodataupdate" src="https://github.com/user-attachments/assets/4223678a-a44b-460a-9e63-3d22388f3f7b" />
+
 
 ---
 
