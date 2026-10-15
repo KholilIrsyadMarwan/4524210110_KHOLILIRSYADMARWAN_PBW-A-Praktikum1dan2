@@ -41,32 +41,36 @@ Aplikasi web sederhana berbasis **PHP Native** ini dibuat untuk mengimplementasi
 
 ## 📌 Soal Tugas Praktikum
 
-1. Jalankan seluruh contoh Pertemuan 1 hingga menghasilkan output tanpa error kritis[cite: 1].
-2. Buat minimal dua modifikasi bermakna pada program (misalnya field baru, kondisi baru, styling, query, atau validasi)[cite: 1].
-3. Tuliskan penjelasan singkat untuk lima bagian kode yang menurut Anda paling penting[cite: 1].
-4. Sertakan screenshot sebelum dan sesudah modifikasi[cite: 1].
-5. Tuliskan satu error yang pernah muncul, penyebabnya, dan langkah perbaikannya[cite: 1].
+1. Jalankan seluruh contoh Pertemuan 1 hingga menghasilkan output tanpa error kritis.
+2. Buat minimal dua modifikasi bermakna pada program (misalnya field baru, kondisi baru, styling, query, atau validasi).
+3. Tuliskan penjelasan singkat untuk lima bagian kode yang menurut Anda paling penting.
+4. Sertakan screenshot sebelum dan sesudah modifikasi.
+5. Tuliskan satu error yang pernah muncul, penyebabnya, dan langkah perbaikannya.
 
 ---
 
 ## 📝 Jawaban & Pembahasan
 
 ### 1. Menampilkan Output Contoh 1 (`kalkulator.php`)
-Menjalankan simulasi kalkulator sederhana menggunakan operasi perkalian ($5 \times 5 = 25$)[cite: 1].
+Menjalankan simulasi kalkulator sederhana menggunakan operasi perkalian .
+<img width="965" height="491" alt="1" src="https://github.com/user-attachments/assets/57301803-055b-4fa7-98eb-70a4ab9e3f7d" />
+
 
 ### 2. Menampilkan Output Contoh 2 (`biodata.php`)
-Menampilkan data profil mahasiswa yang mencakup NIM, Nama, Program Studi, Semester, dan IPK[cite: 1].
+Menampilkan data profil mahasiswa yang mencakup NIM, Nama, Program Studi, Semester, dan IPK.
+<img width="975" height="490" alt="2" src="https://github.com/user-attachments/assets/bd264b61-1e4d-45ee-8c6f-31db6f8dbc5a" />
+
 
 ### 3. Modifikasi Program
-- **Modifikasi 1:** Menambahkan *field* `'status' => 'Aktif'` pada array asosiatif `$mahasiswa`[cite: 1].
-- **Modifikasi 2:** Menambahkan fungsi kondisi `statusSemester()` untuk menentukan tingkatan mahasiswa berdasarkan semester[cite: 1].
+- **Modifikasi 1:** Menambahkan *field* `'status' => 'Aktif'` pada array asosiatif `$mahasiswa`.
+- **Modifikasi 2:** Menambahkan fungsi kondisi `statusSemester()` untuk menentukan tingkatan mahasiswa berdasarkan semester.
 
 ### 4. Penjelasan 5 Bagian Kode Penting
-1. **Fungsi `statusKelulusan()`:** Menentukan predikat akademik berdasarkan batas nilai IPK[cite: 1].
-2. **Array Asosiatif `$mahasiswa`:** Menyimpan data biodata mahasiswa dalam format pasangan *key-value*[cite: 1].
-3. **Perulangan `foreach`:** Mengiterasi seluruh pasangan *key* dan *value* dari array `$mahasiswa` untuk ditampilkan ke HTML[cite: 1].
-4. **Percabangan `if`:** Evaluasi kondisi untuk menentukan status tingkatan semester mahasiswa[cite: 1].
-5. **Fungsi `htmlspecialchars()`:** Mengonversi karakter khusus menjadi entitas HTML guna mencegah ancaman keamanaan Cross-Site Scripting (XSS)[cite: 1].
+1. **Fungsi `statusKelulusan()`:** Menentukan predikat akademik berdasarkan batas nilai IPK.
+2. **Array Asosiatif `$mahasiswa`:** Menyimpan data biodata mahasiswa dalam format pasangan *key-value*.
+3. **Perulangan `foreach`:** Mengiterasi seluruh pasangan *key* dan *value* dari array `$mahasiswa` untuk ditampilkan ke HTML.
+4. **Percabangan `if`:** Evaluasi kondisi untuk menentukan status tingkatan semester mahasiswa.
+5. **Fungsi `htmlspecialchars()`:** Mengonversi karakter khusus menjadi entitas HTML guna mencegah ancaman keamanaan Cross-Site Scripting (XSS).
 
 ---
 
@@ -74,31 +78,31 @@ Menampilkan data profil mahasiswa yang mencakup NIM, Nama, Program Studi, Semest
 
 Aplikasi ini terdiri dari 2 file utama:
 
-1. **Kalkulator Sederhana (`kalkulator.php`)**[cite: 1]
-   - Menyediakan form input angka dan pilihan operator aritmatika ($+, -, *, /$)[cite: 1].
-2. **Biodata Mahasiswa (`biodata.php`)**[cite: 1]
+1. **Kalkulator Sederhana (`kalkulator.php`)**
+   - Menyediakan form input angka dan pilihan operator aritmatika ($+, -, *, /$).
+2. **Biodata Mahasiswa (`biodata.php`)**
    - Menampilkan ringkasan informasi biodata, predikat IPK, dan kategori semester secara dinamis[cite: 1].
 
 ---
 
 ## ✨ Fitur Utama
 
-- ✅ **Perhitungan Aritmatika (`kalkulator.php`)** - Mendukung operasi dasar kalkulator[cite: 1].
-- ✅ **Dynamic Biodata Rendering (`biodata.php`)** - Menampilkan list biodata dari array asosiatif[cite: 1].
-- ✅ **Kategori Semester Otomatis** - Menentukan status mahasiswa (Baru, Menengah, Tingkat Lanjut) berdasarkan input semester[cite: 1].
-- ✅ **Evaluasi Predikat IPK** - Menghasilkan predikat kelulusan berdasarkan range IPK[cite: 1].
-- ✅ **Keamanan Output HTML** - Menggunakan `htmlspecialchars()` pada output string[cite: 1].
+- ✅ **Perhitungan Aritmatika (`kalkulator.php`)** - Mendukung operasi dasar kalkulator.
+- ✅ **Dynamic Biodata Rendering (`biodata.php`)** - Menampilkan list biodata dari array asosiatif.
+- ✅ **Kategori Semester Otomatis** - Menentukan status mahasiswa (Baru, Menengah, Tingkat Lanjut) berdasarkan input semester.
+- ✅ **Evaluasi Predikat IPK** - Menghasilkan predikat kelulusan berdasarkan range IPK.
+- ✅ **Keamanan Output HTML** - Menggunakan `htmlspecialchars()` pada output string.
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Backend & Core
-- **PHP 8.2+** - Native Scripting Language[cite: 1]
+- **PHP 8.2+** - Native Scripting Language.
 
 ### Frontend
-- **HTML5** - Markup Structure[cite: 1]
-- **CSS3** - Basic Styling[cite: 1]
+- **HTML5** - Markup Structure.
+- **CSS3** - Basic Styling.
 
 ---
 
@@ -111,22 +115,22 @@ Output hasil perhitungan perkalian $5 \times 5$:
 ---
 
 ### 2. Tampilan Biodata Sebelum Modifikasi
-Tampilan awal yang hanya memuat NIM, Nama, Prodi, Semester, IPK, dan Predikat[cite: 1]:
+Tampilan awal yang hanya memuat NIM, Nama, Prodi, Semester, IPK, dan Predikat:
 ![Biodata Sebelum Modifikasi](https://via.placeholder.com/800x400?text=Screenshot+Biodata+Sebelum+Modifikasi)[cite: 1]
 
 ---
 
 ### 3. Tampilan Biodata Sesudah Modifikasi
-Tampilan setelah penambahan field **Status: Aktif** dan **Status Semester: Mahasiswa Tingkat Lanjut**[cite: 1]:
-![Biodata Sesudah Modifikasi](https://via.placeholder.com/800x400?text=Screenshot+Biodata+Sesudah+Modifikasi)[cite: 1]
+Tampilan setelah penambahan field **Status: Aktif** dan **Status Semester: Mahasiswa Tingkat Lanjut**:
+![Biodata Sesudah Modifikasi](https://via.placeholder.com/800x400?text=Screenshot+Biodata+Sesudah+Modifikasi)
 
 ---
 
 ## ⚠️ Penanganan Error
 
-- **Error:** `Call to unknown function: 'statuselulusan'`[cite: 1]
+- **Error:** `Call to unknown function: 'statuselulusan'`
 - **Penyebab:** Terjadi *typo* pada nama fungsi saat dipanggil (`statuselulusan`), yang tidak sesuai dengan deklarasi fungsi `statusKelulusan()`[cite: 1].
-- **Perbaikan:** Memperbaiki penulisan nama fungsi pada saat pemanggilan agar sesuai dengan deklarasi awal, yaitu `statusKelulusan()`[cite: 1].
+- **Perbaikan:** Memperbaiki penulisan nama fungsi pada saat pemanggilan agar sesuai dengan deklarasi awal, yaitu `statusKelulusan()`.
 
 ---
 
