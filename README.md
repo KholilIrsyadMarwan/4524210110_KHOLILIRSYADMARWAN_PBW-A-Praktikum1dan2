@@ -55,7 +55,7 @@ Menjalankan simulasi kalkulator sederhana menggunakan operasi perkalian $5 \time
 <img width="965" height="491" alt="1" src="https://github.com/user-attachments/assets/57301803-055b-4fa7-98eb-70a4ab9e3f7d" />
 
 
-### . Menampilkan Output Contoh 2 (`biodata.php`)
+### Menampilkan Output Contoh 2 (`biodata.php`)
 Menampilkan data profil mahasiswa yang mencakup NIM, Nama, Program Studi, Semester, dan IPK.
 <img width="975" height="490" alt="2" src="https://github.com/user-attachments/assets/bd264b61-1e4d-45ee-8c6f-31db6f8dbc5a" />
 
@@ -91,7 +91,7 @@ Menampilkan data profil mahasiswa yang mencakup NIM, Nama, Program Studi, Semest
 Tampilan awal yang hanya memuat NIM, Nama, Prodi, Semester, IPK, dan Predikat:
 ![Biodata Sebelum Modifikasi](https://via.placeholder.com/800x400?text=Screenshot+Biodata+Sebelum+Modifikasi)<br>
 
-### . Tampilan Biodata Sesudah Modifikasi
+### Tampilan Biodata Sesudah Modifikasi
 Tampilan setelah penambahan field **Status: Aktif** dan **Status Semester: Mahasiswa Tingkat Lanjut**:
 ![Biodata Sesudah Modifikasi](https://via.placeholder.com/800x400?text=Screenshot+Biodata+Sesudah+Modifikasi)
 
