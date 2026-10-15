@@ -63,10 +63,11 @@ Menampilkan data profil mahasiswa yang mencakup NIM, Nama, Program Studi, Semest
 
 ### 3. Modifikasi Program
 - **Modifikasi 1:** Menambahkan *field* `'status' => 'Aktif'` pada array asosiatif `$mahasiswa`.
-<img width="1152" height="638" alt="3" src="https://github.com/user-attachments/assets/f9d857bb-9e82-447b-ba4b-a5954ccd5269" />
+<img width="1188" height="414" alt="3" src="https://github.com/user-attachments/assets/76afdd55-e934-40ec-9cc3-8cf619140877" />
+
 
 - **Modifikasi 2:** Menambahkan fungsi kondisi `statusSemester()` untuk menentukan tingkatan mahasiswa berdasarkan semester.
-<img width="1166" height="749" alt="REV4" src="https://github.com/user-attachments/assets/ac0880a9-4274-46ec-aea7-d3598cb85731" />
+<img width="1169" height="512" alt="4" src="https://github.com/user-attachments/assets/d57ba8bf-9f71-42a5-8ecd-bd721244ae5d" />
 
 
 ### 4. Penjelasan 5 Bagian Kode Penting
