@@ -52,7 +52,7 @@ Aplikasi web sederhana berbasis **PHP Native** ini dibuat untuk mengimplementasi
 ## 📝 Jawaban & Pembahasan
 
 ### 1. Menampilkan Output Contoh 1 (`kalkulator.php`)
-Menjalankan simulasi kalkulator sederhana menggunakan operasi perkalian .
+Menjalankan simulasi kalkulator sederhana menggunakan operasi perkalian $5 \times 5$ .
 <img width="965" height="491" alt="1" src="https://github.com/user-attachments/assets/57301803-055b-4fa7-98eb-70a4ab9e3f7d" />
 
 
