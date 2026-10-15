@@ -172,4 +172,4 @@ Tampilan setelah penambahan field **Status: Aktif** dan **Status Semester: Mahas
 
 1. **Clone / Download Repositori**
    ```bash
-   git clone [https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum1dan2.git](https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum1dan2.git)
+   git clone [https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum1dan2.git]
