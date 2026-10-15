@@ -35,7 +35,7 @@ php -S localhost:8000<br>
 ### 4. Akses Aplikasi via Browser<br>
 kalkulator: http://localhost:8000/kalkulator.php <br>
 biodata: http://localhost:8000/biodata.php   <br>
-biodataupdate: http://localhost:8000/biodata.php   <br>
+biodataupdate: http://localhost:8000/biodataupdate.php   <br>
 
 ---
 
