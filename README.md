@@ -106,7 +106,7 @@ Aplikasi ini terdiri dari 2 file utama:
 
 ### 1. Tampilan Kalkulator Sederhana (`kalkulator.php`)
 Output hasil perhitungan perkalian $5 \times 5$:
-![Kalkulator](https://via.placeholder.com/800x400?text=Screenshot+Kalkulator+Sederhana)[cite: 1]
+<img width="145" height="25" alt="4" src="https://github.com/user-attachments/assets/d86469e0-9adb-4ec7-9b41-ec606a56138e" />
 
 ---
 
