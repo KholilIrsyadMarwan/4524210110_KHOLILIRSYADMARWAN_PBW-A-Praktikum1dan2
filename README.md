@@ -28,7 +28,6 @@
 - [✨ Fitur Utama](#-fitur-utama)
 - [🛠️ Tech Stack](#️-tech-stack)
 - [📸 Hasil Screenshot Tampilan Website](#-hasil-screenshot-tampilan-website)
-- [⚠️ Penanganan Error](#️-penanganan-error)
 - [⚙️ Cara Menjalankan Proyek](#️-cara-menjalankan-proyek)
 
 ---
