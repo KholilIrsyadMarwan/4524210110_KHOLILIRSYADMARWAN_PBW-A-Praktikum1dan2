@@ -171,7 +171,7 @@ Tampilan awal yang hanya memuat NIM, Nama, Prodi, Semester, IPK, dan Predikat:
 
 ---
 
-### 2. Tampilan Biodata (`biodataupdate.php`)
+### 3. Tampilan Biodata (`biodataupdate.php`)
 Tampilan setelah penambahan field **Status: Aktif** dan **Status Semester: Mahasiswa Tingkat Lanjut**:
 <img width="1600" height="373" alt="biodataupdate" src="https://github.com/user-attachments/assets/4223678a-a44b-460a-9e63-3d22388f3f7b" />
 
