@@ -85,7 +85,9 @@ Menampilkan data profil mahasiswa yang mencakup NIM, Nama, Program Studi, Semest
 <img width="358" height="56" alt="8" src="https://github.com/user-attachments/assets/29c55678-2283-49eb-8a46-3fcc9abb65e9" />
 
 
-5. **Fungsi `htmlspecialchars()`:** Mengonversi karakter khusus menjadi entitas HTML guna mencegah ancaman keamanaan Cross-Site Scripting (XSS).
+5. **Fungsi `htmlspecialchars()`:** Mengonversi karakter khusus menjadi entitas HTML guna mencegah ancaman keamanaan Cross-Site Scripting (XSS).<br>
+<img width="308" height="19" alt="9" src="https://github.com/user-attachments/assets/40a214d8-876a-4901-817e-5dfb2545b2ea" />
+
 
 ---
 
@@ -94,9 +96,13 @@ Menampilkan data profil mahasiswa yang mencakup NIM, Nama, Program Studi, Semest
 Aplikasi ini terdiri dari 2 file utama:
 
 1. **Kalkulator Sederhana (`kalkulator.php`)**
-   - Menyediakan form input angka dan pilihan operator aritmatika ($+, -, *, /$).
+   - Menyediakan form input angka dan pilihan operator aritmatika ($+, -, *, /$).<br>
+<img width="489" height="486" alt="10" src="https://github.com/user-attachments/assets/f407b44e-ed53-472e-a1ff-6dad24c3a492" />
+
 2. **Biodata Mahasiswa (`biodata.php`)**
-   - Menampilkan ringkasan informasi biodata, predikat IPK, dan kategori semester secara dinamis[cite: 1].
+   - Menampilkan ringkasan informasi biodata, predikat IPK, dan kategori semester secara dinamis.<br>
+<img width="975" height="533" alt="11" src="https://github.com/user-attachments/assets/ae3b742a-c27f-49f8-8e70-6c179cc3540d" />
+
 
 ---
 
