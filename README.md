@@ -4,6 +4,20 @@
 ### 🧑‍🎓 Kholil Irsyad Marwan - 4524210110
 <br>
 
+## Instalasi
+
+1. Clone Repositori. <br>
+git clone [https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum1dan2.git]. <br>
+2. Masuk ke Folder Proyek. <br>
+cd 4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum1dan2.<br>
+3. Jalankan Server Lokal PHP <br>
+php -S localhost:8000<br>
+4. Akses Aplikasi via Browser<br>
+kalkulator: http://localhost:8000/kalkulator.php <br>
+biodata: http://localhost:8000/biodata.php   <br>
+biodataupdate: http://localhost:8000/biodata.php   <br>
+---
+
 # 🚀 Dasar Pemrograman Berbasis Web (PHP Native)
 *Laporan ini disusun untuk memenuhi Tugas Praktikum 1 dan 2 Pemrograman Berbasis Web*  
 
@@ -28,7 +42,7 @@
 - [✨ Fitur Utama](#-fitur-utama)
 - [🛠️ Tech Stack](#️-tech-stack)
 - [📸 Hasil Screenshot Tampilan Website](#-hasil-screenshot-tampilan-website)
-- [⚙️ Cara Menjalankan Proyek](#️-cara-menjalankan-proyek)
+
 
 ---
 
@@ -164,19 +178,3 @@ Tampilan setelah penambahan field **Status: Aktif** dan **Status Semester: Mahas
 ---
 
 
-
-
----
-
-## ⚙️ Cara Menjalankan Proyek
-
-1. Clone Repositori. <br>
-git clone [https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum1dan2.git]. <br>
-2. Masuk ke Folder Proyek. <br>
-cd 4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum1dan2.<br>
-3. Jalankan Server Lokal PHP <br>
-php -S localhost:8000<br>
-4. Akses Aplikasi via Browser<br>
-kalkulator: http://localhost:8000/kalkulator.php <br>
-biodata: http://localhost:8000/biodata.php   <br>
-biodataupdate: http://localhost:8000/biodata.php   <br>
