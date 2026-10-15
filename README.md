@@ -55,12 +55,12 @@ Menjalankan simulasi kalkulator sederhana menggunakan operasi perkalian $5 \time
 <img width="965" height="491" alt="1" src="https://github.com/user-attachments/assets/57301803-055b-4fa7-98eb-70a4ab9e3f7d" />
 
 
-### 2. Menampilkan Output Contoh 2 (`biodata.php`)
+### . Menampilkan Output Contoh 2 (`biodata.php`)
 Menampilkan data profil mahasiswa yang mencakup NIM, Nama, Program Studi, Semester, dan IPK.
 <img width="975" height="490" alt="2" src="https://github.com/user-attachments/assets/bd264b61-1e4d-45ee-8c6f-31db6f8dbc5a" />
 
 
-### 3. Modifikasi Program
+### 2. Modifikasi Program
 - **Modifikasi 1:** Menambahkan *field* `'status' => 'Aktif'` pada array asosiatif `$mahasiswa`.
 <img width="1188" height="414" alt="3" src="https://github.com/user-attachments/assets/76afdd55-e934-40ec-9cc3-8cf619140877" />
 
@@ -69,7 +69,7 @@ Menampilkan data profil mahasiswa yang mencakup NIM, Nama, Program Studi, Semest
 <img width="1169" height="512" alt="4" src="https://github.com/user-attachments/assets/d57ba8bf-9f71-42a5-8ecd-bd721244ae5d" />
 
 
-### 4. Penjelasan 5 Bagian Kode Penting
+### 3. Penjelasan 5 Bagian Kode Penting
 1. **Fungsi `statusKelulusan()`:** Menentukan predikat akademik berdasarkan batas nilai IPK.<br>
 <img width="580" height="26" alt="5" src="https://github.com/user-attachments/assets/f53d2e3b-8920-4a6a-be6f-a9c29a9a8f23" />
 
@@ -86,6 +86,15 @@ Menampilkan data profil mahasiswa yang mencakup NIM, Nama, Program Studi, Semest
 
 5. **Fungsi `htmlspecialchars()`:** Mengonversi karakter khusus menjadi entitas HTML guna mencegah ancaman keamanaan Cross-Site Scripting (XSS).<br>
 <img width="308" height="19" alt="9" src="https://github.com/user-attachments/assets/40a214d8-876a-4901-817e-5dfb2545b2ea" />
+
+### 4. Tampilan Biodata Sebelum Modifikasi
+Tampilan awal yang hanya memuat NIM, Nama, Prodi, Semester, IPK, dan Predikat:
+![Biodata Sebelum Modifikasi](https://via.placeholder.com/800x400?text=Screenshot+Biodata+Sebelum+Modifikasi)<br>
+
+### . Tampilan Biodata Sesudah Modifikasi
+Tampilan setelah penambahan field **Status: Aktif** dan **Status Semester: Mahasiswa Tingkat Lanjut**:
+![Biodata Sesudah Modifikasi](https://via.placeholder.com/800x400?text=Screenshot+Biodata+Sesudah+Modifikasi)
+
 
 ### 5 Error yang pernah muncul, penyebabnya, dan langkah perbaikannya
 - **Penyebab:** Terjadi *typo* pada nama fungsi saat dipanggil (`statuselulusan`), yang tidak sesuai dengan deklarasi fungsi `statusKelulusan()`.<br>
