@@ -88,6 +88,14 @@ Menampilkan data profil mahasiswa yang mencakup NIM, Nama, Program Studi, Semest
 5. **Fungsi `htmlspecialchars()`:** Mengonversi karakter khusus menjadi entitas HTML guna mencegah ancaman keamanaan Cross-Site Scripting (XSS).<br>
 <img width="308" height="19" alt="9" src="https://github.com/user-attachments/assets/40a214d8-876a-4901-817e-5dfb2545b2ea" />
 
+### 5 Error yang pernah muncul, penyebabnya, dan langkah perbaikannya
+- **Penyebab:** Terjadi *typo* pada nama fungsi saat dipanggil (`statuselulusan`), yang tidak sesuai dengan deklarasi fungsi `statusKelulusan()`.<br>
+<img width="746" height="60" alt="12" src="https://github.com/user-attachments/assets/e8f527d6-fce2-4683-952a-071914fe69d6" />
+
+
+- **Perbaikan:** Memperbaiki penulisan nama fungsi pada saat pemanggilan agar sesuai dengan deklarasi awal, yaitu `statusKelulusan()`.<br>
+<img width="309" height="79" alt="13" src="https://github.com/user-attachments/assets/1d3ded67-29d4-43db-9357-a49f0917827a" />
+
 
 ---
 
@@ -131,7 +139,7 @@ Aplikasi ini terdiri dari 2 file utama:
 
 ### 1. Tampilan Kalkulator Sederhana (`kalkulator.php`)
 Output hasil perhitungan perkalian $5 \times 5$:
-<img width="145" height="25" alt="4" src="https://github.com/user-attachments/assets/d86469e0-9adb-4ec7-9b41-ec606a56138e" />
+<img width="746" height="60" alt="12" src="https://github.com/user-attachments/assets/382b2fc0-3cb5-4df2-8018-ce04aefd661d" />
 
 ---
 
@@ -147,11 +155,8 @@ Tampilan setelah penambahan field **Status: Aktif** dan **Status Semester: Mahas
 
 ---
 
-## ⚠️ Penanganan Error
 
-- **Error:** `Call to unknown function: 'statuselulusan'`
-- **Penyebab:** Terjadi *typo* pada nama fungsi saat dipanggil (`statuselulusan`), yang tidak sesuai dengan deklarasi fungsi `statusKelulusan()`[cite: 1].
-- **Perbaikan:** Memperbaiki penulisan nama fungsi pada saat pemanggilan agar sesuai dengan deklarasi awal, yaitu `statusKelulusan()`.
+
 
 ---
 
