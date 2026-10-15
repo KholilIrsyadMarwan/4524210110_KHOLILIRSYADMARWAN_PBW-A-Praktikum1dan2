@@ -71,8 +71,13 @@ Menampilkan data profil mahasiswa yang mencakup NIM, Nama, Program Studi, Semest
 
 
 ### 4. Penjelasan 5 Bagian Kode Penting
-1. **Fungsi `statusKelulusan()`:** Menentukan predikat akademik berdasarkan batas nilai IPK.
-2. **Array Asosiatif `$mahasiswa`:** Menyimpan data biodata mahasiswa dalam format pasangan *key-value*.
+1. **Fungsi `statusKelulusan()`:** Menentukan predikat akademik berdasarkan batas nilai IPK.<br>
+<img width="580" height="26" alt="5" src="https://github.com/user-attachments/assets/f53d2e3b-8920-4a6a-be6f-a9c29a9a8f23" />
+
+2. **Array Asosiatif `$mahasiswa`:** Menyimpan data biodata mahasiswa dalam format pasangan *key-value*.<br>
+<img width="275" height="128" alt="6" src="https://github.com/user-attachments/assets/c4654243-d4f9-4a30-8a61-a599bf9fddbf" />
+
+
 3. **Perulangan `foreach`:** Mengiterasi seluruh pasangan *key* dan *value* dari array `$mahasiswa` untuk ditampilkan ke HTML.
 4. **Percabangan `if`:** Evaluasi kondisi untuk menentukan status tingkatan semester mahasiswa.
 5. **Fungsi `htmlspecialchars()`:** Mengonversi karakter khusus menjadi entitas HTML guna mencegah ancaman keamanaan Cross-Site Scripting (XSS).
