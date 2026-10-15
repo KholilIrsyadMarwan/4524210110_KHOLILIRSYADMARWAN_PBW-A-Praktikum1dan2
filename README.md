@@ -6,7 +6,7 @@
 
 # 🚀 Dasar Pemrograman Berbasis Web (PHP Native)
 *Laporan ini disusun untuk memenuhi Tugas Praktikum 1 dan 2 Pemrograman Berbasis Web*  
-*Dosen Pengampu: Bambang Riono Arsad, S.Kom., MMSI*
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.2">
