@@ -88,12 +88,12 @@ Menampilkan data profil mahasiswa yang mencakup NIM, Nama, Program Studi, Semest
 <img width="308" height="19" alt="9" src="https://github.com/user-attachments/assets/40a214d8-876a-4901-817e-5dfb2545b2ea" />
 
 ### 4. Tampilan Biodata Sebelum Modifikasi
-Tampilan awal yang hanya memuat NIM, Nama, Prodi, Semester, IPK, dan Predikat:
-![Biodata Sebelum Modifikasi](https://via.placeholder.com/800x400?text=Screenshot+Biodata+Sebelum+Modifikasi)<br>
+Tampilan awal yang hanya memuat NIM, Nama, Prodi, Semester, IPK, dan Predikat:<br>
+<img width="489" height="486" alt="Tambahan1" src="https://github.com/user-attachments/assets/99aa8c11-7e41-4918-9f68-910350ddedca" />
 
 ### Tampilan Biodata Sesudah Modifikasi
-Tampilan setelah penambahan field **Status: Aktif** dan **Status Semester: Mahasiswa Tingkat Lanjut**:
-![Biodata Sesudah Modifikasi](https://via.placeholder.com/800x400?text=Screenshot+Biodata+Sesudah+Modifikasi)
+Tampilan setelah penambahan field **Status: Aktif** dan **Status Semester: Mahasiswa Tingkat Lanjut**:<br>
+<img width="975" height="533" alt="Tambahan2" src="https://github.com/user-attachments/assets/5ecd4f81-c2ce-4ca1-842a-4862a7dead33" />
 
 
 ### 5 Error yang pernah muncul, penyebabnya, dan langkah perbaikannya
