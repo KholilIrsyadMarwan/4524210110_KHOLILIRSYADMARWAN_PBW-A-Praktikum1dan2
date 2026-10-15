@@ -78,8 +78,13 @@ Menampilkan data profil mahasiswa yang mencakup NIM, Nama, Program Studi, Semest
 <img width="275" height="128" alt="6" src="https://github.com/user-attachments/assets/c4654243-d4f9-4a30-8a61-a599bf9fddbf" />
 
 
-3. **Perulangan `foreach`:** Mengiterasi seluruh pasangan *key* dan *value* dari array `$mahasiswa` untuk ditampilkan ke HTML.
-4. **Percabangan `if`:** Evaluasi kondisi untuk menentukan status tingkatan semester mahasiswa.
+3. **Perulangan `foreach`:** Mengiterasi seluruh pasangan *key* dan *value* dari array `$mahasiswa` untuk ditampilkan ke HTML.<br>
+<img width="365" height="19" alt="7" src="https://github.com/user-attachments/assets/8d363667-4a42-499f-8b96-bb272c6ef2c9" />
+
+4. **Percabangan `if`:** Evaluasi kondisi untuk menentukan status tingkatan semester mahasiswa.<br>
+<img width="358" height="56" alt="8" src="https://github.com/user-attachments/assets/29c55678-2283-49eb-8a46-3fcc9abb65e9" />
+
+
 5. **Fungsi `htmlspecialchars()`:** Mengonversi karakter khusus menjadi entitas HTML guna mencegah ancaman keamanaan Cross-Site Scripting (XSS).
 
 ---
